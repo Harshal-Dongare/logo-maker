@@ -32,10 +32,9 @@ function App() {
                             <BackgroundController />
                         )}
                     </div>
-                    <div className="md:col-span-3">
+                    <div className="md:col-span-6">
                         <LogoPreview downloadIcon={downloadIcon} />
                     </div>
-                    <div className="md:col-span-1">Ads Panel</div>
                 </div>
             </UpdateStorageContext.Provider>
         </>
