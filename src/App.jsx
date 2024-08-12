@@ -24,15 +24,15 @@ function App() {
                     />
                 </div>
 
-                <div className="fixed ml-64 grid grid-cols-1 md:grid-cols-6">
-                    <div className="md:col-span-2 border h-screen shadow-sm p-5 overflow-scroll">
+                <div className="fixed ml-64 grid grid-cols-1 md:grid-cols-8">
+                    <div className="md:col-span-3 border h-screen shadow-sm  p-8 overflow-scroll">
                         {selectedIndex === 1 ? (
                             <IconController />
                         ) : (
                             <BackgroundController />
                         )}
                     </div>
-                    <div className="md:col-span-6">
+                    <div className="md:col-span-5">
                         <LogoPreview downloadIcon={downloadIcon} />
                     </div>
                 </div>
